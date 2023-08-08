@@ -45,6 +45,6 @@
 			<hr>
 			<p><%=session.getId() %></p>
 		<!-- Un commentaire -->
-<!-- Un autre commentaire -->
+<!-- Un autre christ decommentaire -->
 	</body>
 </html>
