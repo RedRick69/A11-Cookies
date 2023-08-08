@@ -32,16 +32,18 @@
 			}
 		%>
 		<!-- Etape 3: Afficher tous les items de la ToDoLis a partir de l'objet session -->
-		<hr>
-		<h3>Item de la liste ToDoList: </h3>
-		<ol>
-			<%
-				for(String item : items)
-				{
-					out.println("<li>" + item + "</li>");
-				}
-			%>
-		</ol>
+			<hr>
+			<h3>Item de la liste ToDoList: </h3>
+			<ol>
+				<%
+					for(String item : items)
+					{
+						out.println("<li>" + item + "</li>");
+					}
+				%>
+			</ol>
+			<hr>
+			<p><%=session.getId() %></p>
 		
 	</body>
 </html>
