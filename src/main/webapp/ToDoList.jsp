@@ -44,6 +44,6 @@
 			</ol>
 			<hr>
 			<p><%=session.getId() %></p>
-		
+		<!-- Un commentaire -->
 	</body>
 </html>
